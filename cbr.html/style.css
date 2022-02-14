@@ -1,0 +1,48 @@
+.cbr-menu{
+    padding: 0;
+    list-style: none;
+    
+}
+.cbr-menu li {
+    padding-top:17px ;
+    padding-left: 12px;
+}
+
+.cbr-has-submenu{
+    position: relative;
+    background-color: red;
+    width: 500px;
+    height: 30px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.cbr-submenu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 172px 172px 172px;
+    padding-top: 10px;
+}
+.cbr-design{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 2.5px;
+    /* text-align: center; */
+    color: black;
+}
+.cbr-design img{
+    width: 150px;
+    height:150px ;
+}
+.vl{
+    display: flex;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>buoi12</title>
+    </head>
+    <body>
+<form method="post" action="" id="loginform">
+    <table border="1" cellpadding="10">          
+        <tr>
+            <td>Email </td>
+            <td>
+                <input type="text" id="email" name="email" value=""/>
+                <span id="email_error"></span>
+            </td>
+        </tr>
+ 
+        <tr>
+            <td>Mật khẩu: </td>
+            <td>
+                <input type="text" id="password" name="password" value=""/>
+                <span id="password_error"></span>
+            </td>
+        </tr>
+        
+        <tr><td>
+                
+            </td><input type="submit" onclick="return validate();" id="btn" name="btn" value="Đăng ký"/>
+        </tr>
+    </table>
+</form>
+<script src="index.js"></script>	
+</body>
+</html>

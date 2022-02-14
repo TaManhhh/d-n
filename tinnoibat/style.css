@@ -1,0 +1,221 @@
+*{
+    font-family: Helvetica,sans-serif;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns:280px 280px 280px;
+    grid-template-rows: 240px 240px;
+    padding: 10px;
+}
+.homepage-news {
+    width: 1100px;
+    display: grid;
+    grid-template-columns:280px 280px 280px;
+    grid-template-rows: 240px 240px;
+
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.homepage-operation-head {
+    position: relative;
+    padding: 0 0 10px;
+    width: 100%;
+}
+.d-flex {
+    display: flex!important;
+} 
+.justify-content-center {
+    justify-content: center!important;
+} 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.div-group1 {
+    display: flex;
+    width: 400px;
+}
+.homepage-container {
+    height: 100%;
+    width: 445px;
+    padding: 4px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+/* .homepage-container :hover{
+    background-color;
+} */
+.homepage-new-container {
+    height: 239px;
+    width: 285px;
+    padding: 4px;
+    position: relative;
+    border: 1px solid #ccc;
+   
+}
+.homepage-new-container :hover{
+    background-color: none;
+}
+.homepage-child-img-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage-child-img {
+    height: 100%;
+}
+.homepage-publish {
+    margin: 6px 0 0 6px;
+    font-size: 12px;
+    font-weight: inherit;
+    line-height: 20px;
+    color: #898989;
+    border: none;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+a :hover{
+    background-color: red;
+}
+
+.col-line {
+    width: 5px;
+    height: 35px;
+    background-color: #c00;
+    margin-top: 4px;
+}
+.homepage-product-head-title {
+    width: auto;
+    display: inline-block;
+    font-size: 32px;
+    color: #212121;
+    padding: 0;
+    margin: 0 0 0 5px;
+}
+.homepage-read-more {
+    position: absolute;
+    background-color: #212121;
+    color: #fff;
+    font-size: 14px;
+    right: -3px;
+    bottom: -3px;
+    width: 118px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0;   
+}
+/* .homepage-read-more :hover{
+    background-color: red;
+} */
+.homepage-left {
+    height: 420px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}   
+.homepage-read-more:before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 93px;
+    transition: all 1s cubic-bezier(.075,.82,.165,1);
+    z-index: 1;
+    content: "";
+    display: block;
+}
+/* .homepage-new-right {
+    margin: 0px;
+} */
+.homepage-child-img-container-child {
+    height: 154px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage-child-img-text {
+    padding: 0 6px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #212121;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    
+}
+.homepage-child-img-text.big {
+    -webkit-line-clamp: 2;
+    height: 48px;
+}
+.homepage-child-img-text.small {
+    font-size: 14px;
+    line-height: 24px;  
+    height: 28px;
+}
+
+.l{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>bài 4</title>
+    </head>
+    <body>
+      <script>
+      let userName = prompt("Đăng Nhập", '');
+
+        if (userName == 'Admin') {
+
+          let pass = prompt('Password?', '');
+
+          if (pass == 'cafedev') {
+            alert( 'Chào mừng!! ' );
+          } else if (pass == '' || pass == null) {
+            alert( 'Canceled' );
+          } else {
+            alert( 'Wrong password' );
+          }
+
+        } else if (userName == '' || userName == null) {
+          alert( 'Đã Hủy' );
+        } else {
+          alert( "Tôi ko biết bạn " );
+        }
+      </script>  
+    </body>
+</html>
